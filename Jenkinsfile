@@ -4,10 +4,6 @@ pipeline
         registryCredential = 'dockerhub'
         dockerImage = ''
     }
-	options
-	{
-		timestamps()
-	}
 	agent none
 	stages
 	{
